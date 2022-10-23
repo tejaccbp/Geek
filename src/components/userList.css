@@ -1,0 +1,66 @@
+.fixed-top{
+    display: flex;
+    justify-content:space-between;
+    background: gray;
+    padding:5px;
+
+  }
+
+.listItem{
+    display:flex;
+    justify-content: space-between;
+    list-style-type:none;
+    text-align: left;
+    border-bottom: 1px solid gray;
+    padding:6px;    
+}
+ul{
+    padding: 5px;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btm-container {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-evenly;
+
+  }
+  .btn-delete{
+    width:135px;
+    height:45px;
+    background-color: red;
+    color:white;
+  }
+  
+  /* .btn {
+    background-color: orange;
+    color: #ffffff;
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 130px;
+    height: 25px;
+    font-family: "Roboto";
+    font-size: 14px;
+  }   */
+
+  .clearfix{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 6px;
+  }
+  .hint-text{
+    padding-top: 5px;
+    padding-right:5px;
+  }
+  .pagination{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  .pagination li{
+    margin-right:5px;
+  }
